@@ -20,8 +20,9 @@ s.ios.deployment_target = '8.0'
 s.source       = { :git => "https://github.com/infobeats/WXGZSDK.git", :tag => s.version }
 
 
-s.vendored_frameworks = ['WXGZSDK/OperationToolSDK.framework','WXGZSDK/WXGZ_SDK.framework']
-s.resources =  ['WXGZSDK/OperationToolSDK.bundle','WXGZSDK/WXGZ_SDK.bundle']
+s.vendored_frameworks = ['SDK/OperationToolSDK.framework','SDK/WXGZ_SDK.framework']
+
+s.resources =  ['SDK/OperationToolSDK.bundle','SDK/WXGZ_SDK.bundle']
 
 
 
