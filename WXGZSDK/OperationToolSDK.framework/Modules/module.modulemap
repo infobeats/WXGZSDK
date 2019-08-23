@@ -1,0 +1,6 @@
+framework module OperationToolSDK {
+  umbrella header "OperationToolSDK.h"
+
+  export *
+  module * { export * }
+}
