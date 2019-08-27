@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "WXGZSDK"
-s.version      = "1.9.4"
+s.version      = "1.9.5"
 s.summary      = "WXGZSDK for 威胁感知"
 
 s.description  = <<-DESC
