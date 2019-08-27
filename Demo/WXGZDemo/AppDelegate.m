@@ -37,7 +37,7 @@
 
     
     //2、开启log，仅仅用于测试使用。
-    [MTSS setLogEnable:YES];
+    [MTSS setLogEnable:NO];
     
     //3、检测用户未授权推送时，设置是否每次启动开启授权弹框（可根据业务需求选择是否配置）
     [MTSS setDetecteAndAuthorizedEveryLauchTime:YES

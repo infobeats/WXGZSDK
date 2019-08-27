@@ -1,0 +1,6 @@
+framework module WXGZ_SDK {
+  umbrella header "WXGZ_SDK.h"
+
+  export *
+  module * { export * }
+}

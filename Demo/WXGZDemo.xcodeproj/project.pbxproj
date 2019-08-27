@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B2B313546974DF591017F0 /* Pods_WXGZDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A57B9379870DDAB0B25B7C8 /* Pods_WXGZDemo.framework */; };
 		CC843C3A1FF4855C0088C0B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC843C391FF4855C0088C0B6 /* AppDelegate.m */; };
 		CC843C401FF4855C0088C0B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC843C3E1FF4855C0088C0B6 /* Main.storyboard */; };
 		CC843C421FF4855C0088C0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC843C411FF4855C0088C0B6 /* Assets.xcassets */; };
@@ -100,10 +101,6 @@
 		DE24D41F230E468900F3543A /* HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE24D3C4230E468900F3543A /* HUDManager.m */; };
 		DE24D420230E468900F3543A /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE24D3C5230E468900F3543A /* MBProgressHUD.bundle */; };
 		DE24D421230E468900F3543A /* WXConfigTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DE24D3C7230E468900F3543A /* WXConfigTools.m */; };
-		DE48E41E230FCB8900F8B3E4 /* OperationToolSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE48E41A230FCB8900F8B3E4 /* OperationToolSDK.bundle */; };
-		DE48E41F230FCB8900F8B3E4 /* OperationToolSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE48E41B230FCB8900F8B3E4 /* OperationToolSDK.framework */; };
-		DE48E420230FCB8900F8B3E4 /* WXGZ_SDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE48E41C230FCB8900F8B3E4 /* WXGZ_SDK.bundle */; };
-		DE48E421230FCB8900F8B3E4 /* WXGZ_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE48E41D230FCB8900F8B3E4 /* WXGZ_SDK.framework */; };
 		DEBA53F82297AED500165A20 /* AppDelegate+push.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBA53F72297AED400165A20 /* AppDelegate+push.m */; };
 /* End PBXBuildFile section */
 
@@ -121,9 +118,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F2D0224A4CC3C4672574BED /* Pods-WXGZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXGZDemo.release.xcconfig"; path = "Target Support Files/Pods-WXGZDemo/Pods-WXGZDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3A57B9379870DDAB0B25B7C8 /* Pods_WXGZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXGZDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83FFAB5201034740052CC99 /* WXGZ_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WXGZ_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CAA71D1FFCD1BB00C6C2A8 /* OperationToolSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OperationToolSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CAA71E1FFCD1BB00C6C2A8 /* WXGZ_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WXGZ_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25003CB6165AB86BB4EF6B4 /* Pods-WXGZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXGZDemo.debug.xcconfig"; path = "Target Support Files/Pods-WXGZDemo/Pods-WXGZDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CC843C351FF4855C0088C0B6 /* WXGZDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXGZDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC843C381FF4855C0088C0B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC843C391FF4855C0088C0B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -312,10 +312,6 @@
 		DE24D3C5230E468900F3543A /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
 		DE24D3C7230E468900F3543A /* WXConfigTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXConfigTools.m; sourceTree = "<group>"; };
 		DE24D3C8230E468900F3543A /* WXConfigTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXConfigTools.h; sourceTree = "<group>"; };
-		DE48E41A230FCB8900F8B3E4 /* OperationToolSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = OperationToolSDK.bundle; sourceTree = "<group>"; };
-		DE48E41B230FCB8900F8B3E4 /* OperationToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OperationToolSDK.framework; sourceTree = "<group>"; };
-		DE48E41C230FCB8900F8B3E4 /* WXGZ_SDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WXGZ_SDK.bundle; sourceTree = "<group>"; };
-		DE48E41D230FCB8900F8B3E4 /* WXGZ_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WXGZ_SDK.framework; sourceTree = "<group>"; };
 		DEBA53F62297AED400165A20 /* AppDelegate+push.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+push.h"; sourceTree = "<group>"; };
 		DEBA53F72297AED400165A20 /* AppDelegate+push.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+push.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -325,20 +321,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE48E41F230FCB8900F8B3E4 /* OperationToolSDK.framework in Frameworks */,
-				DE48E421230FCB8900F8B3E4 /* WXGZ_SDK.framework in Frameworks */,
+				46B2B313546974DF591017F0 /* Pods_WXGZDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26718F739B0B413229200E30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C25003CB6165AB86BB4EF6B4 /* Pods-WXGZDemo.debug.xcconfig */,
+				0F2D0224A4CC3C4672574BED /* Pods-WXGZDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CC843C2C1FF4855C0088C0B6 = {
 			isa = PBXGroup;
 			children = (
 				CC843C371FF4855C0088C0B6 /* WXGZDemo */,
 				CC843C361FF4855C0088C0B6 /* Products */,
 				CC843C751FF48FC50088C0B6 /* Frameworks */,
+				26718F739B0B413229200E30 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -353,7 +358,6 @@
 		CC843C371FF4855C0088C0B6 /* WXGZDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DE48E419230FCB8900F8B3E4 /* WXGZSDK */,
 				DE24D2F5230E468800F3543A /* demo */,
 				CCA7973F200CD27900BCBFFB /* WXGZDemo.entitlements */,
 				CC843C381FF4855C0088C0B6 /* AppDelegate.h */,
@@ -376,6 +380,7 @@
 				A8CAA71E1FFCD1BB00C6C2A8 /* WXGZ_SDK.framework */,
 				CC843C781FF48FD10088C0B6 /* libsqlite3.tbd */,
 				CC843C761FF48FC50088C0B6 /* libz.tbd */,
+				3A57B9379870DDAB0B25B7C8 /* Pods_WXGZDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -829,17 +834,6 @@
 			path = WXConfigTools;
 			sourceTree = "<group>";
 		};
-		DE48E419230FCB8900F8B3E4 /* WXGZSDK */ = {
-			isa = PBXGroup;
-			children = (
-				DE48E41A230FCB8900F8B3E4 /* OperationToolSDK.bundle */,
-				DE48E41B230FCB8900F8B3E4 /* OperationToolSDK.framework */,
-				DE48E41C230FCB8900F8B3E4 /* WXGZ_SDK.bundle */,
-				DE48E41D230FCB8900F8B3E4 /* WXGZ_SDK.framework */,
-			);
-			path = WXGZSDK;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -847,10 +841,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC843C611FF4855C0088C0B6 /* Build configuration list for PBXNativeTarget "WXGZDemo" */;
 			buildPhases = (
+				F576EEA8BB0559B4337567AB /* [CP] Check Pods Manifest.lock */,
 				CC843C311FF4855C0088C0B6 /* Sources */,
 				CC843C321FF4855C0088C0B6 /* Frameworks */,
 				CC843C331FF4855C0088C0B6 /* Resources */,
 				DE24D42F230E46D900F3543A /* Embed Frameworks */,
+				22DDA242193FC0AC7C66DEDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -910,9 +906,7 @@
 				DE24D420230E468900F3543A /* MBProgressHUD.bundle in Resources */,
 				DE24D3D3230E468900F3543A /* WXUseInfoView1.xib in Resources */,
 				CC843C421FF4855C0088C0B6 /* Assets.xcassets in Resources */,
-				DE48E420230FCB8900F8B3E4 /* WXGZ_SDK.bundle in Resources */,
 				DE24D3DB230E468900F3543A /* WXBannerColCell.xib in Resources */,
-				DE48E41E230FCB8900F8B3E4 /* OperationToolSDK.bundle in Resources */,
 				DE24D3D2230E468900F3543A /* WXTableViewCell.xib in Resources */,
 				DE24D41D230E468900F3543A /* LICENSE in Resources */,
 				DE24D3D0230E468900F3543A /* WXSlideVC.xib in Resources */,
@@ -924,6 +918,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22DDA242193FC0AC7C66DEDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WXGZDemo/Pods-WXGZDemo-resources.sh",
+				"${PODS_ROOT}/WXGZSDK/SDK/OperationToolSDK.bundle",
+				"${PODS_ROOT}/WXGZSDK/SDK/WXGZ_SDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OperationToolSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WXGZ_SDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WXGZDemo/Pods-WXGZDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F576EEA8BB0559B4337567AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WXGZDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC843C311FF4855C0088C0B6 /* Sources */ = {
@@ -1136,6 +1175,7 @@
 		};
 		CC843C621FF4855C0088C0B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25003CB6165AB86BB4EF6B4 /* Pods-WXGZDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WXGZDemo/WXGZDemo.entitlements;
@@ -1155,7 +1195,8 @@
 				INFOPLIST_FILE = WXGZDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.infobeat.IDataVisibleBurialPointSDKTestDemoYY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1165,6 +1206,7 @@
 		};
 		CC843C631FF4855C0088C0B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2D0224A4CC3C4672574BED /* Pods-WXGZDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = WXGZDemo/WXGZDemo.entitlements;
@@ -1184,7 +1226,8 @@
 				INFOPLIST_FILE = WXGZDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
+				PODS_ROOT = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.infobeat.IDataVisibleBurialPointSDKTestDemoYY;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
