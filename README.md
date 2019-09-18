@@ -31,7 +31,7 @@ AppKey 和 AcceptId 为接入 SDK 的必要参数，参数值需要到管理平�
 #### （2）SDK和Demo下载 
 注：使用CocoaPods的用户可以通过如下方式集成：
 ```ruby
-pod 'WXGZSDK', '~> 1.9.4'
+pod 'WXGZSDK', '~> 1.9.4.1'
 ```
 
  注意（搜索之前在终端更新下pod）

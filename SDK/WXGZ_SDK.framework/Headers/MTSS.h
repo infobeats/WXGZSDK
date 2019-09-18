@@ -106,5 +106,19 @@ typedef NS_ENUM(NSInteger, MTSSAuthorizationType)
  @param userInfo 用户信息字典
  */
 + (void)addUserInfoWithDic:(NSDictionary *)userInfo;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end
 
