@@ -10,6 +10,8 @@
 
 #import <WXGZ_SDK/MTSS.h>
 
+#import "MTSS+attackCheck.h"
+
 //! Project version number for WXGZ_SDK.
 FOUNDATION_EXPORT double WXGZ_SDKVersionNumber;
 
