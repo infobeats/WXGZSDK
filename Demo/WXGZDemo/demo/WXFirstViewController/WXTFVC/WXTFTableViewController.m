@@ -51,11 +51,16 @@
         tf.layer.borderWidth= 0.5f;
         tf.backgroundColor = [UIColor colorWithRed:242/255.0 green:242/255.0 blue:242/255.0 alpha:1];
         tf.placeholder = @"请输入文字";
-        [tf setValue:[UIColor colorWithRed:184/255.0 green:184/255.0 blue:184/255.0 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
-        [tf setValue:[UIFont boldSystemFontOfSize:14] forKeyPath:@"_placeholderLabel.font"];
+        if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 13.0) {
+             
+           } else { //13以前可以使用
+                 [tf setValue:[UIColor colorWithRed:184/255.0 green:184/255.0 blue:184/255.0 alpha:1] forKeyPath:@"_placeholderLabel.textColor"];
+                     [tf setValue:[UIFont boldSystemFontOfSize:14] forKeyPath:@"_placeholderLabel.font"];
 
-        [tf addTarget:self action:@selector(DidBegin:) forControlEvents:UIControlEventEditingDidBegin];
+                     [tf addTarget:self action:@selector(DidBegin:) forControlEvents:UIControlEventEditingDidBegin];
 
+           }
+      
         
         NSInteger row = i / lineNum;
         NSInteger col = i % lineNum;

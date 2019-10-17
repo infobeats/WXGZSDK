@@ -35,6 +35,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     WXTextTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([WXTextTableViewCell class])];
     if (cell == nil) {
         cell = [WXTextTableViewCell viewFromXib];

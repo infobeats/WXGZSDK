@@ -9,21 +9,21 @@
 #import "WXConfigTools.h"
 
 #define userDef [NSUserDefaults standardUserDefaults]
-#define mtssCurrentConfig2 @"mtssCurrentConfig2"
+#define WXGZCurrentConfig2 @"WXGZCurrentConfig2"
 
 @implementation WXConfigTools
 
 + (void)setDefaultConfig2:(BOOL)defualtConfig
 {
-    [userDef setBool:defualtConfig forKey:mtssCurrentConfig2];
+    [userDef setBool:defualtConfig forKey:WXGZCurrentConfig2];
 }
 + (BOOL)isDefaultConfig2
 {
-    return [userDef boolForKey:mtssCurrentConfig2];
+    return [userDef boolForKey:WXGZCurrentConfig2];
 }
 + (NSString *)getVersion
 {
-    id MTSSVersionManage = [NSClassFromString(@"MTSSVersionManage") performSelector:@selector(sharedInstance)];
+    id MTSSVersionManage = [NSClassFromString(@"WXGZVersionManage") performSelector:@selector(sharedInstance)];
     return [NSString stringWithFormat:@"%@",[MTSSVersionManage valueForKey:@"sdkVersion"]];
 }
 + (NSDictionary *)getDefaultConfig
@@ -50,38 +50,38 @@
 + (void)saveAppkey:(NSString *)appkey
 {
     if (appkey.length) {
-        [userDef setValue:appkey forKey:mtssAppkey];
+        [userDef setValue:appkey forKey:WXGZAppkey];
     }
 }
 //获取保存的appkey
 + (NSString *)getAppkey
 {
-    return [userDef valueForKey:mtssAppkey];
+    return [userDef valueForKey:WXGZAppkey];
 }
 
 //保存URL
 + (void)saveReportUrl:(NSString *)reportUrl
 {
     if (reportUrl.length) {
-        [userDef setValue:reportUrl forKey:mtssReportUrl];
+        [userDef setValue:reportUrl forKey:WXGZReportUrl];
     }
 }
 //获取保存的URL
 + (NSString *)getReportUrl
 {
-    return  [userDef valueForKey:mtssReportUrl];
+    return  [userDef valueForKey:WXGZReportUrl];
 }
 
 //acceptId
 + (void)saveAcceptId:(NSString *)acceptId
 {
     if (acceptId.length) {
-        [userDef setValue:acceptId forKey:mtssAcceptId];
+        [userDef setValue:acceptId forKey:WXGZAcceptId];
     }
 }
 + (NSString *)getAcceptId
 {
-    return [userDef valueForKey:mtssAcceptId];
+    return [userDef valueForKey:WXGZAcceptId];
 }
 
 
@@ -90,23 +90,23 @@
 //获取埋点的URL
 + (void)saveBaseUrl:(NSString *)baseUrl{
     if (baseUrl.length) {
-        [userDef setValue:baseUrl forKey:mtssBaseUrl];
+        [userDef setValue:baseUrl forKey:WXGZBaseUrl];
     }
 }
 + (NSString *)getBaseUrl
 {
-    return [userDef valueForKey:mtssBaseUrl];
+    return [userDef valueForKey:WXGZBaseUrl];
 }
 
 //推送URL
 + (void)savePushUrl:(NSString *)pushUrl{
     if (pushUrl.length) {
-        [userDef setValue:pushUrl forKey:mtssPushUrl];
+        [userDef setValue:pushUrl forKey:WXGZPushUrl];
     }
 }
 + (NSString *)getPushUrl
 {
-    return [userDef valueForKey:mtssPushUrl];
+    return [userDef valueForKey:WXGZPushUrl];
 }
 
 
@@ -117,11 +117,11 @@
 }
 + (void)clearCache
 {
-    [userDef setValue:NULL forKey:mtssReportUrl];
-    [userDef setValue:NULL forKey:mtssAppkey];
-    [userDef setValue:NULL forKey:mtssPushUrl];
-    [userDef setValue:NULL forKey:mtssAcceptId];
-    [userDef setValue:NULL forKey:mtssBaseUrl];
+    [userDef setValue:NULL forKey:WXGZReportUrl];
+    [userDef setValue:NULL forKey:WXGZAppkey];
+    [userDef setValue:NULL forKey:WXGZPushUrl];
+    [userDef setValue:NULL forKey:WXGZAcceptId];
+    [userDef setValue:NULL forKey:WXGZBaseUrl];
     [userDef synchronize];
 }
 @end

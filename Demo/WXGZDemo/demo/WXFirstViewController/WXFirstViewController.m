@@ -50,8 +50,8 @@
 {
     //www.baidu.com  a.b.c
     //baidu.com
-    //    NSURL *url = [NSURL URLWithString:@"https://wenku.baidu.com"];
-    NSURL *url = [NSURL URLWithString:@"https://www.qq.com"];
+        NSURL *url = [NSURL URLWithString:@"https://wenku.baidu.com"];
+//    NSURL *url = [NSURL URLWithString:@"https://www.qq.com"];
     
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:self delegateQueue:[NSOperationQueue mainQueue]];
@@ -92,7 +92,7 @@
         _tabView.frame =  [UIScreen mainScreen].bounds;
         _tabView.backgroundColor = WXBackColor;
         _tabView.dataSource = self;
-        _tabView.delegate = self;
+         _tabView.delegate = self;
         _tabView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _tabView;
@@ -179,6 +179,10 @@
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, 0)];
     view.backgroundColor = WXBackColor;
     return view;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (CGFloat)itemH

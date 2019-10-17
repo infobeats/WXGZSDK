@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-#define mtssAppkey @"MTSS_AppKey"
-#define mtssReportUrl @"MTSS_ReportUrl"
-#define mtssAcceptId @"MTSS_acceptId"
-#define mtssBaseUrl @"MTSS_baseUrl"
-#define mtssPushUrl @"MTSS_pushUrl"
+#define WXGZAppkey @"MTSS_AppKey"
+#define WXGZReportUrl @"MTSS_ReportUrl"
+#define WXGZAcceptId @"MTSS_acceptId"
+#define WXGZBaseUrl @"MTSS_baseUrl"
+#define WXGZPushUrl @"MTSS_pushUrl"
 
 @interface WXConfigTools : NSObject
 

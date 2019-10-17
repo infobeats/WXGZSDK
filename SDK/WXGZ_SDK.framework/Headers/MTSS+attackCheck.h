@@ -1,6 +1,6 @@
 //
 //  MTSS+attackCheck.h
-//  WXGZ_SDK
+//  MTSS_SDK
 //
 //  Created by songxuhua on 2019/7/23.
 //  Copyright © 2019 ijiami. All rights reserved.
