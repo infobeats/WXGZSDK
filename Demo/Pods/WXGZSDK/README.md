@@ -2,7 +2,7 @@
 
 SDK     | version | 日期
 ------- | ---------|---------
-iOS     | WXGZSDK 1.9.4 | 2019-8
+    iOS     | WXGZSDK 1.9.4.2 | 2019-10
 
 #### 要求
 iOS8.0 和Xcode 9以上
