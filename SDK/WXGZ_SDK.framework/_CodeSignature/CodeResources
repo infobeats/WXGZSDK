@@ -4,21 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MTSS+attackCheck.h</key>
-		<data>
-		0tbbdh4lvfY6QOL2sy8ioDEEyKU=
-		</data>
 		<key>Headers/MTSS.h</key>
 		<data>
-		/T0bEgVd0k9P2ur7Ui5Di8IHfLI=
+		+/hEG4qZpck6Hxz8a/eqR/P8lcY=
 		</data>
 		<key>Headers/WXGZ_SDK.h</key>
 		<data>
-		HACxbtGvsqdK1UQEnrv/rF8Ip5A=
+		rJ2ri+qYj5jC4yASv4CE8A9hFFI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e+VtzUuI3YuTkjJf03TII58t22Q=
+		DijdZ8itxUJ2dURdIlGigXTWQKM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,37 +23,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MTSS+attackCheck.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0tbbdh4lvfY6QOL2sy8ioDEEyKU=
-			</data>
-			<key>hash2</key>
-			<data>
-			dqmYtYh/4Dd5q+TzYHjms+lnY30UgdwO8cm66hUgL6Y=
-			</data>
-		</dict>
 		<key>Headers/MTSS.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/T0bEgVd0k9P2ur7Ui5Di8IHfLI=
+			+/hEG4qZpck6Hxz8a/eqR/P8lcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			q86bZF2eZ0w9qqADiChSY4IpCEGnfyU7y1hm6DDtj90=
+			wK5459a3Low5oGGL7KHvd7WJr5AFADRi59SuHcVtve4=
 			</data>
 		</dict>
 		<key>Headers/WXGZ_SDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HACxbtGvsqdK1UQEnrv/rF8Ip5A=
+			rJ2ri+qYj5jC4yASv4CE8A9hFFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ot0l6/vldanrH1kLXDeFu709MwPiTy/J0dp1eqh2X4Q=
+			8jEUk7tjALlgNp3FBonk+Nww4KxYQjf7J2mNpDyoEgY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

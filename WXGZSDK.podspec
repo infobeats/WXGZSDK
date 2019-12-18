@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "WXGZSDK"
-s.version      = "1.9.4.2"
+s.version      = "1.9.4.3"
 s.summary      = "WXGZSDK for 威胁感知"
 
 s.description  = <<-DESC
@@ -22,7 +22,7 @@ s.source       = { :git => "https://github.com/infobeats/WXGZSDK.git", :tag => s
 
 s.vendored_frameworks = ['SDK/OperationToolSDK.framework','SDK/WXGZ_SDK.framework']
 
-s.resources =  ['SDK/OperationToolSDK.bundle','SDK/WXGZ_SDK.bundle']
+s.resources =  ['SDK/WXGZ_SDK.bundle']
 
 
 
