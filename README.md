@@ -2,7 +2,8 @@
 
 SDK     | version | 日期
 ------- | ---------|---------
-    iOS     | WXGZSDK 1.9.4.2 | 2019-10
+iOS     | WXGZSDK 1.9.4.2 | 2019-10
+iOS     | WXGZSDK 1.9.5.0 | 2019-12
 
 #### 要求
 iOS8.0 和Xcode 10以上
@@ -31,7 +32,7 @@ AppKey 和 AcceptId 为接入 SDK 的必要参数，参数值需要到管理平�
 #### （2）SDK和Demo下载 
 注：使用CocoaPods的用户可以通过如下方式集成：
 ```ruby
-pod 'WXGZSDK', '~> 1.9.4.2'
+pod 'WXGZSDK', '~> 1.9.5.0'
 ```
 
  注意（搜索之前在终端更新下pod）
