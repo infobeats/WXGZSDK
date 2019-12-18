@@ -35,23 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		006AA75CE28F009D648093A80CA95CD6 /* OperationToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OperationToolSDK.framework; path = SDK/OperationToolSDK.framework; sourceTree = "<group>"; };
 		01C0C22044C83385552CFD8F00DFB0DF /* Pods_WXGZDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WXGZDemo.framework; path = "Pods-WXGZDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3D79DF92BAE5C7E3F1A99F01D80185 /* Pods-WXGZDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WXGZDemo-resources.sh"; sourceTree = "<group>"; };
+		20060728B17824542EF76D22FFF76E87 /* WXGZ_SDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WXGZ_SDK.bundle; path = SDK/WXGZ_SDK.bundle; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		395D26528B9A25467D4384DFAC2499CB /* WXGZSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXGZSDK.xcconfig; sourceTree = "<group>"; };
+		65BDBD498A51E76DCBAB6133BC7A7E83 /* WXGZSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXGZSDK.xcconfig; sourceTree = "<group>"; };
 		66DA4DCA489417EE9D3905914022BE8B /* Pods-WXGZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXGZDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6D553F56DB071A32F17586140DE26079 /* Pods-WXGZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXGZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		7B27DA15573061A39EBB6C9DA473D783 /* OperationToolSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = OperationToolSDK.bundle; path = SDK/OperationToolSDK.bundle; sourceTree = "<group>"; };
-		801928DE0BD158F59DE90776149ADA9F /* WXGZ_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WXGZ_SDK.framework; path = SDK/WXGZ_SDK.framework; sourceTree = "<group>"; };
+		832A5B18B8A40FBCC0B20117C20338B5 /* WXGZ_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WXGZ_SDK.framework; path = SDK/WXGZ_SDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3CA59AA04F8E50BCE6EAC21E4B1A152 /* Pods-WXGZDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WXGZDemo-Info.plist"; sourceTree = "<group>"; };
 		B6E5F6DDD9629B81B46B83984C92BD02 /* Pods-WXGZDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WXGZDemo-dummy.m"; sourceTree = "<group>"; };
 		BE5EDFA9E988150E4E2919ADA2F3AC51 /* Pods-WXGZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WXGZDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E40B99C832235882997B8E35F1972858 /* WXGZ_SDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WXGZ_SDK.bundle; path = SDK/WXGZ_SDK.bundle; sourceTree = "<group>"; };
 		EDA0248A4372AE2D4E15B32005E781B8 /* Pods-WXGZDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WXGZDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EFC4C5266427FD46F8AA2027E1FF40F3 /* Pods-WXGZDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WXGZDemo.modulemap"; sourceTree = "<group>"; };
 		F72C61B1ED08BFFC9659DFD61C84A24C /* Pods-WXGZDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WXGZDemo-umbrella.h"; sourceTree = "<group>"; };
-		F77BC0563DB1E47BA7CB2A2A5B0083D6 /* OperationToolSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OperationToolSDK.framework; path = SDK/OperationToolSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,15 +73,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1A0CF9C0477A19C3E192DBE3F9B7E071 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				395D26528B9A25467D4384DFAC2499CB /* WXGZSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WXGZSDK";
-			sourceTree = "<group>";
-		};
 		1DB2C94D85CA7A412F836F58C76CF32C /* Pods-WXGZDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,24 +90,41 @@
 			path = "Target Support Files/Pods-WXGZDemo";
 			sourceTree = "<group>";
 		};
-		232435FDAC93495B429B89F6CC79C487 /* Frameworks */ = {
+		47322AE566BA836D9ECEB4327F04DE08 /* WXGZSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F77BC0563DB1E47BA7CB2A2A5B0083D6 /* OperationToolSDK.framework */,
-				801928DE0BD158F59DE90776149ADA9F /* WXGZ_SDK.framework */,
+				8C5C55F9FA4D7E41A8EFE17EF9425E72 /* Frameworks */,
+				70A1FAB28F583CEB524164E89AA7D8DD /* Resources */,
+				AB11D5CB90019AEA821D218C6A37983A /* Support Files */,
+			);
+			name = WXGZSDK;
+			path = WXGZSDK;
+			sourceTree = "<group>";
+		};
+		70A1FAB28F583CEB524164E89AA7D8DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20060728B17824542EF76D22FFF76E87 /* WXGZ_SDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8C5C55F9FA4D7E41A8EFE17EF9425E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006AA75CE28F009D648093A80CA95CD6 /* OperationToolSDK.framework */,
+				832A5B18B8A40FBCC0B20117C20338B5 /* WXGZ_SDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		876200FED4870A546CCA5A8AE682BBC4 /* WXGZSDK */ = {
+		AB11D5CB90019AEA821D218C6A37983A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				232435FDAC93495B429B89F6CC79C487 /* Frameworks */,
-				CCAEF51B4797D6D5255807BA00CFF95D /* Resources */,
-				1A0CF9C0477A19C3E192DBE3F9B7E071 /* Support Files */,
+				65BDBD498A51E76DCBAB6133BC7A7E83 /* WXGZSDK.xcconfig */,
 			);
-			name = WXGZSDK;
-			path = WXGZSDK;
+			name = "Support Files";
+			path = "../Target Support Files/WXGZSDK";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -131,18 +138,9 @@
 		CAD559C6ED8860C021958F61EA14ED27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				876200FED4870A546CCA5A8AE682BBC4 /* WXGZSDK */,
+				47322AE566BA836D9ECEB4327F04DE08 /* WXGZSDK */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		CCAEF51B4797D6D5255807BA00CFF95D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7B27DA15573061A39EBB6C9DA473D783 /* OperationToolSDK.bundle */,
-				E40B99C832235882997B8E35F1972858 /* WXGZ_SDK.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -220,6 +218,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DBFD715DD418981BAA6018F49D85A025 /* Products */;
@@ -265,7 +264,7 @@
 /* Begin XCBuildConfiguration section */
 		3C4C9264AA79D2CD9FE506226A3BD538 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 395D26528B9A25467D4384DFAC2499CB /* WXGZSDK.xcconfig */;
+			baseConfigurationReference = 65BDBD498A51E76DCBAB6133BC7A7E83 /* WXGZSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -469,7 +468,7 @@
 		};
 		EFE1922AFD0EEB25B59CA489659D31C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 395D26528B9A25467D4384DFAC2499CB /* WXGZSDK.xcconfig */;
+			baseConfigurationReference = 65BDBD498A51E76DCBAB6133BC7A7E83 /* WXGZSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

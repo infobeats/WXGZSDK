@@ -927,12 +927,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WXGZDemo/Pods-WXGZDemo-resources.sh",
-				"${PODS_ROOT}/WXGZSDK/SDK/OperationToolSDK.bundle",
 				"${PODS_ROOT}/WXGZSDK/SDK/WXGZ_SDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OperationToolSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WXGZ_SDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

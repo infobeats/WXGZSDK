@@ -97,11 +97,9 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/WXGZSDK/SDK/OperationToolSDK.bundle"
   install_resource "${PODS_ROOT}/WXGZSDK/SDK/WXGZ_SDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/WXGZSDK/SDK/OperationToolSDK.bundle"
   install_resource "${PODS_ROOT}/WXGZSDK/SDK/WXGZ_SDK.bundle"
 fi
 
