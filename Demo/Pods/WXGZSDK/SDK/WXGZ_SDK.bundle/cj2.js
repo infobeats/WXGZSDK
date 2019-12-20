@@ -8,6 +8,7 @@
   var infoBeatCj = function() { //构造函数  函数对象
     return new infoBeatCj.prototype.init();
   }
+
   var infoBeatMTSSBuriedArr = [];
   infoBeatCj.fn = infoBeatCj.prototype = { //原型对象
     length: 0,
@@ -206,3 +207,6 @@
     infoBeatCj().events();
   }
 })(window);
+
+
+

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/OperationSDK.h</key>
 		<data>
-		2nad0z1JqtA482n994T+GFk2ssM=
+		FTREdMAZHcfd4lDioA1aqxnukSY=
 		</data>
 		<key>Headers/OperationToolSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rtptogN6lLz+pYjGtlfEPzupv9I=
+		eR5YoOQD5SoQZixEQtKskuq05rU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2nad0z1JqtA482n994T+GFk2ssM=
+			FTREdMAZHcfd4lDioA1aqxnukSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/cHTSlJFCAUhEz3leAgoWDDLcVfFVc62xio+kpM7wgs=
+			yclpZijyEuMN5xxnTF9qWyWYlodEq975CaNDv3on2e0=
 			</data>
 		</dict>
 		<key>Headers/OperationToolSDK.h</key>

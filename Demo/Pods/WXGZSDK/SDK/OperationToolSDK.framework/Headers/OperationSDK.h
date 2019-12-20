@@ -9,20 +9,24 @@
 #import <Foundation/Foundation.h>
 @interface OperationSDK : NSObject
 
-//网络请求接口
-@property (nonatomic, copy) NSString *baseURL;
-
 + (OperationSDK *)instance;
 
+//网络请求接口
+@property (nonatomic, copy) NSString * baseURL;
+
+///acceptId
+@property(nonatomic,strong)NSString * acceptId;
+
+
 /*
- *提交AcceptId
+ *保存
  */
-- (void)registerAcceptId:(NSString *)acceptId withUrl:(NSString *)url;
+- (void)saveAcceptId:(NSString *)acceptId withUrl:(NSString *)url;
 
 /**
  *注册通知
  */
--(void)registerForRemoteNotifications:(NSString *)deviceToken;
+-(void)dy_registerForRemoteNotifications:(NSString *)deviceToken;
 
 /*
  *是否本系统的远程推送
@@ -32,7 +36,7 @@
 /*
  *收到远程的推送
  */
-- (void)op_didReceiveRemoteNotification:(NSDictionary *)userInfo;
+- (void)dy_didReceiveRemoteNotification:(NSDictionary *)userInfo;
 
 /*
  *程序唤醒

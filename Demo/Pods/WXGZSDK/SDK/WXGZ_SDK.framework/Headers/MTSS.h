@@ -47,12 +47,12 @@ typedef NS_ENUM(NSInteger, MTSSAuthorizationType)
 /**
  单例
  */
-+ (MTSS *)sharedInstance;
++ (instancetype)sharedInstance;
 
 /**
  *  设置服务器埋点、采集上报的URL、激活推送URL、appkey、AcceptId
  *  @param buryingURL       服务器提供埋点API访问的地址
-    格式：协议://IP或域名:端口 (没有使用埋点功能可以填写为nil)
+    格式：协议://IP或域名:端口
  *  @param reportedURL      服务器提供威胁感知数据上报访问的地址
     格式：协议://IP或域名:端口
  *  @param pushURL          服务器提供推送API访问的地址
@@ -63,6 +63,9 @@ typedef NS_ENUM(NSInteger, MTSSAuthorizationType)
 + (void)startWithBuryingURL:(NSString *)buryingURL reportedURL:(NSString *)reportedURL pushURL:(NSString *)pushURL acceptId:(NSString *)acceptId appKey:(NSString *) appKey;
 
 
+/// 自定义配置设备ID
+/// @param deviceId 设备ID，用于标示手机这台设备
++ (void)configDeviceId:(NSString *)deviceId;
 
 /**
  *  注册推送token
